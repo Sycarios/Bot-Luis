@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./botbuilder-python/libraries/botbuilder-core",
+        "./botbuilder-python/libraries/botbuilder-ai"
+    ]
+}

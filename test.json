@@ -1,0 +1,2442 @@
+[
+   
+    {
+        "text": "i have 7 kids and we would like to go to dublin. they want to see their mom, she works there. we live in santa cruz.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 115,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 105,
+                        "endPos": 114,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 41,
+                        "endPos": 46,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "miami from goiania. 3400 max",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 27,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 11,
+                        "endPos": 17,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 0,
+                        "endPos": 4,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 20,
+                        "endPos": 23,
+                        "entity": "budget"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi there, i really want to go to osaka but don't really know what kind of trip i want. i heard from my friend you guys have a wide range of offerings so i want to check out what are the availabilities for osaka.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 210,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 33,
+                        "endPos": 37,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to go somewhere from toronto. ideally between spt 9 and spt 24. we will be 1 adult and 4 children. we have 13700.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 119,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 28,
+                        "endPos": 34,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 114,
+                        "endPos": 118,
+                        "entity": "budget"
+                    },
+                    {
+                        "startPos": 57,
+                        "endPos": 57,
+                        "entity": "str_date"
+                    },
+                    {
+                        "startPos": 67,
+                        "endPos": 68,
+                        "entity": "end_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to go to queenstown for 6 days",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 36,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 16,
+                        "endPos": 25,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i would like to go to ulsan from san juan with my wife and son. i need inspiration for my novel",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 94,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 33,
+                        "endPos": 40,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 22,
+                        "endPos": 26,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "seattle it is!!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 14,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 0,
+                        "endPos": 6,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i would like to go to somewhere, dont know where tho. i would need to leave from sl and i have 10 days vacation",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 110,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 81,
+                        "endPos": 82,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to leave from tel aviv and go to fortaleza for 2300 with 7 adults",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 71,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 21,
+                        "endPos": 28,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 40,
+                        "endPos": 48,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 54,
+                        "endPos": 57,
+                        "entity": "budget"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "get me out of la asap!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 21,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 14,
+                        "endPos": 15,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to go on a vacation from munich.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 38,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 32,
+                        "endPos": 37,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to go to denver from rosario",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 34,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 28,
+                        "endPos": 34,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 16,
+                        "endPos": 21,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i only have 1800 in the bank though... can't do anything with that i bet",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 71,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 12,
+                        "endPos": 15,
+                        "entity": "budget"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get home! it�s an emergency",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 36,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "hi! you can help me by giving me the best honeymoon in cancun!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 61,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 55,
+                        "endPos": 60,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "get me out of santiago for 13 days",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 33,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 14,
+                        "endPos": 21,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i would like you to find me, my wife, and my 4 children, a trip to guadalajara from seattle.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 91,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 84,
+                        "endPos": 90,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 67,
+                        "endPos": 77,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "the big boss approved sept 12-28",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 31,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 22,
+                        "endPos": 28,
+                        "entity": "str_date"
+                    },
+                    {
+                        "startPos": 30,
+                        "endPos": 31,
+                        "entity": "end_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i would like to take my wife and 4 kids on a trip from toronto to porto",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 70,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 55,
+                        "endPos": 61,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 66,
+                        "endPos": 70,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 1,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "i want to take my five friends with me from san diego to frankfurt for my birthday bash",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 86,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 44,
+                        "endPos": 52,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 57,
+                        "endPos": 65,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i would like to take my family on a trip from kabul to phoenix",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 61,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 46,
+                        "endPos": 50,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 55,
+                        "endPos": 61,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get to north vancouver to shoot my movie. coming from birmingham",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 73,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 64,
+                        "endPos": 73,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 17,
+                        "endPos": 31,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "need two tickets out of buenos aires!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 36,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 24,
+                        "endPos": 35,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi yes, to jerusalem please.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 27,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 11,
+                        "endPos": 19,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i have 9 days vacation",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 21,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "i have 4 kids i want to take on a trip to see their mom in santa cruz",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 68,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 59,
+                        "endPos": 68,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey! so i'm in charge of planning the next vacay for my wife and me plus our seven munchkins.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 92,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "i want to look at trips from san jose to dublin for 3500 and under.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 66,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 29,
+                        "endPos": 36,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 41,
+                        "endPos": 46,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 52,
+                        "endPos": 55,
+                        "entity": "budget"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to throw my parents on a plane and get them out of my hair",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 64,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "i wouldn't define it amazing but yes i need do go back to minneapolis!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 69,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 58,
+                        "endPos": 68,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i would like to go to salvador from detroit with 4 adults and 11 children total",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 78,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 36,
+                        "endPos": 42,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 22,
+                        "endPos": 29,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi, id like to go to goiania with my 4 besties from kobe",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 55,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 52,
+                        "endPos": 55,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 21,
+                        "endPos": 27,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "yes! i choose tampa! there lies my destiny.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 42,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 14,
+                        "endPos": 18,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "minneapolis to punta cana",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 24,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 0,
+                        "endPos": 10,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 15,
+                        "endPos": 24,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to book a trip for me and madonna to birmingham from milan.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 65,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 60,
+                        "endPos": 64,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 44,
+                        "endPos": 53,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get to marseille from dallas",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 37,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 32,
+                        "endPos": 37,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 17,
+                        "endPos": 25,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "can you check guadalajara first? i'll be leaving from curitiba",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 61,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 54,
+                        "endPos": 61,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 14,
+                        "endPos": 24,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to go to beijing from atlanta",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 35,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 29,
+                        "endPos": 35,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 16,
+                        "endPos": 22,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "yes! i'm booking for 20 of us! heard recife is a sweet destination",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 65,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 37,
+                        "endPos": 42,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to go to pittsburgh from boston please.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 45,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 32,
+                        "endPos": 37,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 16,
+                        "endPos": 25,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to fly to fukuoka from hiroshima",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 38,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 30,
+                        "endPos": 38,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 17,
+                        "endPos": 23,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "anything to minneapolis from calgary?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 36,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 29,
+                        "endPos": 35,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 12,
+                        "endPos": 22,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "melbourne please",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 15,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 0,
+                        "endPos": 8,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i sure hope! i want to go to santo domingo!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 42,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 29,
+                        "endPos": 41,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i have 7 days vacation",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 21,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "next stop is san jose! can you get me there?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 43,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 13,
+                        "endPos": 20,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i would like to take my fam jam on a vacation to boston from tijuana.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 68,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 61,
+                        "endPos": 67,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 49,
+                        "endPos": 54,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi there, what is the best hotel in toronto?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 43,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 36,
+                        "endPos": 42,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i heard madonna was in tel aviv, can you get me there from santos?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 65,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 59,
+                        "endPos": 64,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 23,
+                        "endPos": 30,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "get the 17 of us out of tofino for a few days! the majority of us want to go to lima so let's see deals for those!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 113,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 24,
+                        "endPos": 29,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 80,
+                        "endPos": 83,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want a vacation from sydney to washington",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 42,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 23,
+                        "endPos": 28,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 33,
+                        "endPos": 42,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get to burlington from ulsan for 5800",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 46,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 33,
+                        "endPos": 37,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 17,
+                        "endPos": 26,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 43,
+                        "endPos": 46,
+                        "entity": "budget"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "barcelona is calling me. please show me the way there from belo horizonte.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 73,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 59,
+                        "endPos": 72,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 0,
+                        "endPos": 8,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "recife to pittsburgh for 4 adults. only 5 star hotels",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 52,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 0,
+                        "endPos": 5,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 10,
+                        "endPos": 19,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i would like to go to rosario from st. petersburg. i have 4600. i can go anytime for however long.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 97,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 35,
+                        "endPos": 48,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 22,
+                        "endPos": 28,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 58,
+                        "endPos": 61,
+                        "entity": "budget"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "fukuoka to belo horizonte. 6000. 9th to 17th.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 44,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 0,
+                        "endPos": 6,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 11,
+                        "endPos": 24,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 27,
+                        "endPos": 30,
+                        "entity": "budget"
+                    },
+                    {
+                        "startPos": 33,
+                        "endPos": 33,
+                        "entity": "str_date"
+                    },
+                    {
+                        "startPos": 40,
+                        "endPos": 41,
+                        "entity": "end_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "houston to milan for 3",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 21,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 0,
+                        "endPos": 6,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 11,
+                        "endPos": 15,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "are there 5 star hotels in kyoto?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 32,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 27,
+                        "endPos": 31,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi! i have 9 days of vacation time. can you find me travel packages on or after  september 20th from ciudad juarez?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 114,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 101,
+                        "endPos": 113,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 81,
+                        "endPos": 92,
+                        "entity": "str_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi! we're thinking of going to washington. will try to get all 19 of us to go if that's possible!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 96,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 31,
+                        "endPos": 40,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to go to kabul from baltimore",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 35,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 27,
+                        "endPos": 35,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 16,
+                        "endPos": 20,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "get me to atlanta!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 17,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 10,
+                        "endPos": 16,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get out of kabul on september 6th. can you get me to leon for 3200",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 75,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 21,
+                        "endPos": 25,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 63,
+                        "endPos": 66,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 72,
+                        "endPos": 75,
+                        "entity": "budget"
+                    },
+                    {
+                        "startPos": 30,
+                        "endPos": 40,
+                        "entity": "str_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "please get me back to manaus asap!!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 34,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 22,
+                        "endPos": 27,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to go to guadalajara with my home girlz.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 46,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 16,
+                        "endPos": 26,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get home on or after september 8th!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 44,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 31,
+                        "endPos": 41,
+                        "entity": "str_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "we must go to atlanta!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 21,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 14,
+                        "endPos": 20,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get to fortaleza from paris. we will be 2 adults and 7 children",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 72,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 32,
+                        "endPos": 36,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 17,
+                        "endPos": 25,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "gotta go to hamburg. in puebla now",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 33,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 24,
+                        "endPos": 29,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 12,
+                        "endPos": 18,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get to san antonio from tampa",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 38,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 34,
+                        "endPos": 38,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 17,
+                        "endPos": 27,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey bot. i got all the money there is in the world\nfind me the best okay?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 72,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "i need to get out of north vancouver on september 8th. can i get a flight to dublin?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 83,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 21,
+                        "endPos": 35,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 77,
+                        "endPos": 82,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 40,
+                        "endPos": 50,
+                        "entity": "str_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to get to paris from cordoba",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 34,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 28,
+                        "endPos": 34,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 17,
+                        "endPos": 21,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey there! the 17 of us wants to get out of tel aviv for a sweet trip.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 69,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 44,
+                        "endPos": 51,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 15,
+                        "endPos": 16,
+                        "entity": "end_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i have 8 days vacation",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 21,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "i'd like to go to washington.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 28,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 18,
+                        "endPos": 27,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i would like to find a great package from birmingham to porto for 6 days.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 72,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 42,
+                        "endPos": 51,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 56,
+                        "endPos": 60,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi wizard! i'm looking for a trip from rosario.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 46,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 39,
+                        "endPos": 45,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to leave jerusalem on or after september 6th",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 50,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 16,
+                        "endPos": 24,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 38,
+                        "endPos": 48,
+                        "entity": "str_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i am leaving from marseille and want to bring my friends with me to hamburg for my birthday bash",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 95,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 18,
+                        "endPos": 26,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 68,
+                        "endPos": 74,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to go to burlington from valencia",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 39,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 32,
+                        "endPos": 39,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 16,
+                        "endPos": 25,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey hey! so spring break is sept 26 - oct 3.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 43,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 28,
+                        "endPos": 34,
+                        "entity": "str_date"
+                    },
+                    {
+                        "startPos": 42,
+                        "endPos": 42,
+                        "entity": "end_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get to osaka from dallas so i can find mewtwo, he's the last one i need to find and i heard he was spotted in osaka.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 125,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 28,
+                        "endPos": 33,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 17,
+                        "endPos": 21,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i want to go to cancun from dallas",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 33,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 28,
+                        "endPos": 33,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 16,
+                        "endPos": 21,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey, never done this before, but i'll give it a try! i finally have some time off work and i want to see if you can help me book my vacation!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 140,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "hi there, i need to go to north vancouver please.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 48,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 26,
+                        "endPos": 40,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hello, i'd like to go to kyoto",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 29,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 25,
+                        "endPos": 29,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey i'd love to bring my 4 kids to go see their mom who's currently working in washington, could you find me a flight?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 117,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 79,
+                        "endPos": 88,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "oh man, i need a holiday.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 24,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "my friends and i would like to go belo horizonte please.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 55,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 34,
+                        "endPos": 47,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey, i'd like to bring my family on a trip to kobe.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 50,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 46,
+                        "endPos": 49,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi there, i need to go to miami!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 31,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 26,
+                        "endPos": 30,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need a break badly. can i please book a trip to sao paulo where hopefully no one will know me?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 95,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 50,
+                        "endPos": 58,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get to boston please, it's an emergency.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 49,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 17,
+                        "endPos": 22,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi there, my team and i are thinking of going to monterrey please.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 65,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 49,
+                        "endPos": 57,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i sure do. this will be my first time travelling by myself so i am nervous. i really need you to help me find the right package.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 127,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "hey i need to get out of here, just need some space to myself!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 61,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "my friends and i would love to get to phoenix please!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 52,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 38,
+                        "endPos": 44,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i'd love to go to minneapolis sometime",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 37,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 18,
+                        "endPos": 28,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hello, i need your help...my wife is super strict and she's put me in charge of the family vacation. we have $4000 to spend. find me something good!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 147,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 110,
+                        "endPos": 113,
+                        "entity": "budget"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi there, i'd like to take my grandkids on vacation to brasilia.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 63,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 55,
+                        "endPos": 62,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i am one adult travelling to maceio. do you have any flights out of osaka?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 73,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 68,
+                        "endPos": 72,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 29,
+                        "endPos": 34,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey i need to get to san juan to bring a recipe back to my hometown of paris. it'll be me and my 4 kids, can you help me?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 120,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 71,
+                        "endPos": 75,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 21,
+                        "endPos": 28,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi! i am very excited!!!!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 24,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "i'm good, thanks. i have an important business meeting in san juan.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 66,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 58,
+                        "endPos": 65,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey, my buddy and i want to have the best time of our lives!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 59,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "hi we live in miami and are trying to plan our next vacay, can you help?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 71,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 14,
+                        "endPos": 18,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey i'm thinking of going from st. petersburg to hamburg, can you help me?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 73,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 31,
+                        "endPos": 44,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 49,
+                        "endPos": 55,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to find a nice travel package that is available between today and friday sept 16",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 86,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 80,
+                        "endPos": 86,
+                        "entity": "end_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi there, we're looking to go on a family vacation and we'll be leaving from cancun. we don't have a destination in mind though and so i was helping you'd help us with that.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 172,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 77,
+                        "endPos": 82,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "oh my god there are so many places i want to go but i don't know which to choose from.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 85,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "i need to book a business trip for 4 potential large clients and i, leaving from philadelphia",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 92,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 81,
+                        "endPos": 92,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey there, i'd love a trip from recife to barcelona please, can you help  me?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 76,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 32,
+                        "endPos": 37,
+                        "entity": "or_city"
+                    },
+                    {
+                        "startPos": 42,
+                        "endPos": 50,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi there, i'm looking to go to brasilia between september 30 and october 4, could you help me?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 93,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 31,
+                        "endPos": 38,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 48,
+                        "endPos": 59,
+                        "entity": "str_date"
+                    },
+                    {
+                        "startPos": 73,
+                        "endPos": 73,
+                        "entity": "end_date"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "my name is stephen king and i want to book a  quiet getaway",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 58,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "we are a large family wanting to travel together to fortaleza, what can you do for us?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 85,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 52,
+                        "endPos": 60,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hey, we're having a huge family trip. think you can help us?",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 59,
+                "entity": "FlyMeBooking",
+                "children": []
+            }
+        ]
+    },
+    {
+        "text": "hey, i need to get back home to milan!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 37,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 32,
+                        "endPos": 36,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i have a crucial meeting with my investors in santa cruz, you must get me there",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 78,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 46,
+                        "endPos": 55,
+                        "entity": "dst_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "hi i've got 9 days free and i'm looking for a vacation. i live in san francisco.",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 79,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 66,
+                        "endPos": 78,
+                        "entity": "or_city"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "i need to get to fortaleza on september 8th or soon after!",
+        "intent": "FlyMe",
+        "entities": [
+            {
+                "startPos": 0,
+                "endPos": 57,
+                "entity": "FlyMeBooking",
+                "children": [
+                    {
+                        "startPos": 17,
+                        "endPos": 25,
+                        "entity": "dst_city"
+                    },
+                    {
+                        "startPos": 30,
+                        "endPos": 40,
+                        "entity": "str_date"
+                    }
+                ]
+            }
+        ]
+    }
+]
