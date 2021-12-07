@@ -21,6 +21,8 @@ from flight_booking_recognizer import FlightBookingRecognizer
 from helpers.luis_helper import LuisHelper, Intent
 from .booking_dialog import BookingDialog
 
+#from applicationinsights import TelemetryClient
+
 
 class MainDialog(ComponentDialog):
     def __init__(
@@ -32,13 +34,15 @@ class MainDialog(ComponentDialog):
         super(MainDialog, self).__init__(MainDialog.__name__)
         self.telemetry_client = telemetry_client or NullTelemetryClient()
 
+        #self.tc = TelemetryClient('cccc8436-4b61-4265-a03c-1a2895bcd4fc')
+
         text_prompt = TextPrompt(TextPrompt.__name__)
         text_prompt.telemetry_client = self.telemetry_client
 
         booking_dialog.telemetry_client = self.telemetry_client
 
         wf_dialog = WaterfallDialog(
-            "WFDialog", [self.intro_step, self.act_step, self.final_step]
+            "WFDialog", [self.intro_step, self.act_step,self.final_step]
         )
         wf_dialog.telemetry_client = self.telemetry_client
 
@@ -108,9 +112,11 @@ class MainDialog(ComponentDialog):
             # If the call to the booking service was successful tell the user.
             # time_property = Timex(result.travel_date)
             # travel_date_msg = time_property.to_natural_language(datetime.now())
-            msg_txt = f"You would like to go to {result.dst_city} from {result.or_city} on {result.str_date} to {result.end_date}  with {result.budget}$ budget. I will  "
+            msg_txt = f"You would like to go to {result.dst_city} from {result.or_city} on {result.str_date} to {result.end_date}  with {result.budget}$ budget.  "
             message = MessageFactory.text(msg_txt, msg_txt, InputHints.ignoring_input)
             await step_context.context.send_activity(message)
+
+        #self.tc.track_trace(self, 'test')
 
         prompt_message = "If you want to book another ticket, you can tell me now."
         return await step_context.replace_dialog(self.id, prompt_message)

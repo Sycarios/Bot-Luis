@@ -11,6 +11,8 @@ from .cancel_and_help_dialog import CancelAndHelpDialog
 from .date_resolver_dialog import DateResolverDialog
 from .date_resolver_dialog import DateResolverDialog2
 
+
+
 class BookingDialog(CancelAndHelpDialog):
     """Flight booking implementation."""
 
@@ -158,6 +160,7 @@ class BookingDialog(CancelAndHelpDialog):
         )
 
     async def final_step(self, step_context: WaterfallStepContext) -> DialogTurnResult:
+        
         """Complete the interaction and end the dialog."""
         if step_context.result:
             booking_details = step_context.options

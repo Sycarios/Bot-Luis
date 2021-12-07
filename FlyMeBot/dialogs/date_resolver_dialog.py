@@ -51,7 +51,7 @@ class DateResolverDialog(CancelAndHelpDialog):
         timex = step_context.options
         
 
-        prompt_msg = "On what date would you like to travel?"
+        prompt_msg = "On what date would you like to travel? Like 22/01/22"
         reprompt_msg = (
             "I'm sorry, we need the entire date, please enter your travel "
             "date including the month, day and year."

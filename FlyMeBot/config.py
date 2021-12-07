@@ -16,7 +16,7 @@ class DefaultConfig:
     LUIS_API_KEY = "6b8d76e7fde4489cb8c8a2181b365923"
     # LUIS endpoint host name, ie "westus.api.cognitive.microsoft.com"
     LUIS_API_HOST_NAME = "lasta.cognitiveservices.azure.com/"
-    APPINSIGHTS_INSTRUMENTATION_KEY = "b67c8daf-f3af-4c3b-b135-e27c2723840d"
+    APPINSIGHTS_INSTRUMENTATION_KEY = "40778be4-e5a8-48cc-a961-50629c3e0ef9"
     
 
 

@@ -4,13 +4,13 @@ from enum import Enum
 from typing import Dict
 from botbuilder.ai.luis import LuisRecognizer, LuisPredictionOptions
 from botbuilder.core import IntentScore, TopIntent, TurnContext
+from config import DefaultConfig
 from booking_details import BookingDetails
-from botbuilder.ai.luis import LuisPredictionOptions, LuisApplication
+
 import requests
 class Intent(Enum):
     BOOK_FLIGHT = "FlyMe"
-    #CANCEL = "Cancel"
-    #GET_WEATHER = "GetWeather"
+
     NONE_INTENT = "None"
 
 
@@ -58,12 +58,12 @@ class LuisHelper:
             params ={
                 'query': utterance,
         
-                'subscription-key': '6b8d76e7fde4489cb8c8a2181b365923'
+                'subscription-key':  DefaultConfig.LUIS_API_KEY
             }
 
 
     # Make the REST call.
-            response = requests.get(f'https://lasta.cognitiveservices.azure.com/luis/prediction/v3.0/apps/c4cb4b1a-f70d-4575-a4d5-b04c7e1d4812/slots/production/predict', headers=headers, params=params)
+            response = requests.get(f'https://{DefaultConfig.LUIS_API_HOST_NAME}/luis/prediction/v3.0/apps/{DefaultConfig.LUIS_APP_ID}/slots/production/predict', headers=headers, params=params)
 
     # Display the results on the console.
             rep=response.json()
