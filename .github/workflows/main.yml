@@ -16,4 +16,4 @@ jobs:
      
       - name: Run Test
         working-directory: ./FlyMeBot
-        run: python -m unittest discover tests
+        run: python -m unittest
