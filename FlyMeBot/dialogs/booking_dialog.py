@@ -36,13 +36,14 @@ class BookingDialog(CancelAndHelpDialog):
                 self.str_date_step,
                 self.end_date_step,
                 self.budget_step,
+                self.confirm_step,
                 self.final_step,
             ],
         )
         waterfall_dialog.telemetry_client = telemetry_client
 
         self.add_dialog(text_prompt)
-        # self.add_dialog(ConfirmPrompt(ConfirmPrompt.__name__))
+        self.add_dialog(ConfirmPrompt(ConfirmPrompt.__name__))
         self.add_dialog(
             DateResolverDialog(DateResolverDialog.__name__, self.telemetry_client)
         )
@@ -149,26 +150,24 @@ class BookingDialog(CancelAndHelpDialog):
         # Capture the results of the previous step
         booking_details.budget = step_context.result
         msg = (
-            f"Please confirm, you would like to: { booking_details.dst_city }"
-            f" from: { booking_details.or_city } on: { booking_details.str_date}."
-            f" and come back on  { booking_details.end_date} with { booking_details.budget} $"
+            f"Please confirm, you would like to go to: { booking_details.dst_city }\n"
+            f" from: { booking_details.or_city }\non: { booking_details.str_date}"
+            f" and come back on: { booking_details.end_date} with { booking_details.budget}$ budget"
         )
-
+        
         # Offer a YES/NO prompt.
         return await step_context.prompt(
             ConfirmPrompt.__name__, PromptOptions(prompt=MessageFactory.text(msg))
         )
 
     async def final_step(self, step_context: WaterfallStepContext) -> DialogTurnResult:
-        
         """Complete the interaction and end the dialog."""
-        if step_context.result:
-            booking_details = step_context.options
-            booking_details.budget = step_context.result
+        booking_details = step_context.options
+        booking_details.confirm = step_context.result
 
-            return await step_context.end_dialog(booking_details)
+        return await step_context.end_dialog(booking_details)
 
-        return await step_context.end_dialog()
+
 
     def is_ambiguous(self, timex: str) -> bool:
         """Ensure time is correct."""

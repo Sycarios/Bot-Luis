@@ -20,8 +20,8 @@ from booking_details import BookingDetails
 from flight_booking_recognizer import FlightBookingRecognizer
 from helpers.luis_helper import LuisHelper, Intent
 from .booking_dialog import BookingDialog
-
-#from applicationinsights import TelemetryClient
+from config import DefaultConfig
+from applicationinsights import TelemetryClient
 
 
 class MainDialog(ComponentDialog):
@@ -34,7 +34,7 @@ class MainDialog(ComponentDialog):
         super(MainDialog, self).__init__(MainDialog.__name__)
         self.telemetry_client = telemetry_client or NullTelemetryClient()
 
-        #self.tc = TelemetryClient('cccc8436-4b61-4265-a03c-1a2895bcd4fc')
+        self.tc = TelemetryClient(DefaultConfig.APPINSIGHTS_INSTRUMENTATION_KEY)
 
         text_prompt = TextPrompt(TextPrompt.__name__)
         text_prompt.telemetry_client = self.telemetry_client
@@ -69,7 +69,7 @@ class MainDialog(ComponentDialog):
         message_text = (
             str(step_context.options)
             if step_context.options
-            else "Hey, my name is Lasta, do you need help to book a flight ?"
+            else "Hey, my name is Lasta, do you need help to book a flight ?  \n Please tell me something like : I would like to go to paris from new york tommorow, with 500$ budget "
         )
         prompt_message = MessageFactory.text(
             message_text, message_text, InputHints.expecting_input
@@ -93,6 +93,7 @@ class MainDialog(ComponentDialog):
 
         if intent =="FlyMe" and luis_result:
             
+            
 
             # Run the BookingDialog giving it whatever details we have from the LUIS call.
             return await step_context.begin_dialog(self._booking_dialog_id, luis_result)
@@ -104,9 +105,8 @@ class MainDialog(ComponentDialog):
     async def final_step(self, step_context: WaterfallStepContext) -> DialogTurnResult:
         # If the child dialog ("BookingDialog") was cancelled or the user failed to confirm,
         # the Result here will be null.
-        if step_context.result is not None:
-            result = step_context.result
-
+        result = step_context.result
+        if step_context.result.confirm is not False:  
             # Now we have all the booking details call the booking service.
 
             # If the call to the booking service was successful tell the user.
@@ -115,9 +115,23 @@ class MainDialog(ComponentDialog):
             msg_txt = f"You would like to go to {result.dst_city} from {result.or_city} on {result.str_date} to {result.end_date}  with {result.budget}$ budget.  "
             message = MessageFactory.text(msg_txt, msg_txt, InputHints.ignoring_input)
             await step_context.context.send_activity(message)
+            
+            
+            
+        print(step_context.result) 
+        print(step_context.result.confirm) 
+        if step_context.result.confirm is False:
 
-        #self.tc.track_trace(self, 'test')
+            message_trace=f"SENTENCE: {result.sentence}\nDST_CITY: {result.dst_city} \nOR_CITY: {result.or_city} \nSTR_DATE: {result.str_date} \nEND_DATE: {result.end_date} \nBUDGET: {result.budget}$ \n\nLuis Prediction : {result.prediction_luis}" 
 
+            try:
+           
+                self.tc.track_trace('The user replied NO to the confirmation step, please check the informations', { 'Input': message_trace })
+            
+                self.tc.flush()
+                print('\nTrace Sent')
+            except:
+                print("Trace Not sent")
         prompt_message = "If you want to book another ticket, you can tell me now."
         return await step_context.replace_dialog(self.id, prompt_message)
 

@@ -93,13 +93,24 @@ class LuisHelper:
             except:
                 print("no result")
                 
-            try:#  rep['prediction']['entities']['FlyMeBooking'][0]['budget'][0]:
+            try:
                 
             
                result.budget=rep['prediction']['entities']['FlyMeBooking'][0]['budget'][0]
             except:
                 print("no result")
 
+            try:
+                
+               result.sentence=rep['query']
+            except:
+                print("no result")
+
+            try:
+                
+               result.prediction_luis=rep['prediction']
+            except:
+                print("no result")
         
 
         return intent,result
