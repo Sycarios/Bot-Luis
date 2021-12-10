@@ -16,11 +16,11 @@ class Test_config(unittest.TestCase): #Test if there is something in these varia
         Ikey=config.DefaultConfig.APPINSIGHTS_INSTRUMENTATION_KEY
         self.assertTrue(Ikey)
 
-    def test_APPINSIGHTS_INSTRUMENTATION_KEY(self):
+    def test_APPID(self):
         Appid=config.DefaultConfig.APP_ID
         self.assertTrue(Appid)
-        
-    def test_APPINSIGHTS_INSTRUMENTATION_KEY(self):
+
+    def test_APP_Password(self):
         Apppass=config.DefaultConfig.APP_PASSWORD
         self.assertTrue(Apppass)
     
