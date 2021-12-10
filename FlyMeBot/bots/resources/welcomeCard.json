@@ -21,7 +21,7 @@
       "type": "TextBlock",
       "size": "default",
       "isSubtle": "true",
-      "text": "Hey, i'm Lasta the reservation bot for your flights tickets. Please Start the conversation.",
+      "text": "Hey, i'm Lasta the reservation bot for your flights tickets. Please Start the conversation. You can type Cancel or Help anytime.",
       "wrap": true,
       "maxLines": 0
     }

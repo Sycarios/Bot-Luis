@@ -69,7 +69,7 @@ class MainDialog(ComponentDialog):
         message_text = (
             str(step_context.options)
             if step_context.options
-            else "Hey, my name is Lasta, do you need help to book a flight ?  \n Please tell me something like : I would like to go to paris from new york tommorow, with 500$ budget "
+            else "Hey, my name is Lasta, do you need help to book a flight ?  \n Please tell me something like : I would like to go to paris from new york, with 500$ budget "
         )
         prompt_message = MessageFactory.text(
             message_text, message_text, InputHints.expecting_input
@@ -112,7 +112,7 @@ class MainDialog(ComponentDialog):
             # If the call to the booking service was successful tell the user.
             # time_property = Timex(result.travel_date)
             # travel_date_msg = time_property.to_natural_language(datetime.now())
-            msg_txt = f"You would like to go to {result.dst_city} from {result.or_city} on {result.str_date} to {result.end_date}  with {result.budget}$ budget.  "
+            msg_txt = f"Thank you, i will transfer these informations.   "
             message = MessageFactory.text(msg_txt, msg_txt, InputHints.ignoring_input)
             await step_context.context.send_activity(message)
             
