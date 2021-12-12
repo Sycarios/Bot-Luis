@@ -58,6 +58,6 @@ jobs:
         with:
           app-name: 'FlyMeWeb'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5BA904DFE1AF41E7B6243735037EFB47 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
 
 
