@@ -1,5 +1,5 @@
 asyncio>=3.4.3
-aiohttpaiohttp==3.6.2
+aiohttpaiohttp
 requests==2.23.0
 botbuilder-core>=4.14.0
 botframework-connector>=4.14.0
